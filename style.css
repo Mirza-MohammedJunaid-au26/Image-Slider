@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    display: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.box{
+    width: 300px;
+    border-radius:10px;
+}
+
+.box:hover{
+    background: rgb(248, 239, 239);
+    transform: scale(1.01);
+    transition: .3s ease-in-out;
+}
+
+.box img{
+    height: 300px;
+    width: 300px;
+}
+
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.price{
+    text-align: center;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+.cut{
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.description{
+    text-align: justify;
+    padding: 10px;
+}
+
+.buy{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.buy-button{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.buy-button:hover{
+    background: #000;
+    color: #fff;
+}
